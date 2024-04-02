@@ -1,0 +1,39 @@
+/*=======================FOOTER SECTION============*/
+.footer{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: hsla(259, 52%, 78%, 0.616);
+    color: #000;
+}
+footer h2{
+    font-size: 1.5rem;
+    margin-top: 1.6rem;
+}
+.footer-social a i{
+    color: var(--text-color);
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+
+/*HOVER*/
+.footer-social a i:hover{
+    color: var(--hover);
+}
+.copyright{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.copyright a{
+    color: #ffae00;
+}
+.copyright p{
+    color: var(--text-color);
+}

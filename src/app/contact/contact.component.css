@@ -1,0 +1,39 @@
+/*=======================CONTACT SECTION============*/
+.contact-form{
+    display: grid;
+    place-items: center;
+    margin-top: 1rem;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+form input,
+form textarea{
+    padding: 15px;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: hsla(259, 52%, 78%, 0.616);
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+form textarea{
+    resize: none;
+    height: 200px;
+}
+.contact-button{
+    width: 160px;
+    cursor: pointer;
+    background: #2768d9;
+    color: red;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 0%;
+}
+.contact-button:hover{
+    background: var(--hover);
+}

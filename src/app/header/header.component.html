@@ -1,0 +1,20 @@
+<header>
+    <!--LOGO-->
+    <a href="#home" class="logo">CodingwithWedu</a>
+    <!--button for reponse device-->
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <!--menu items-->
+    <ul class="navbar">
+        <li><a (click)="scrollToSection('home')">Home</a></li>
+        <li><a (click)="scrollToSection('about')">About</a></li>
+        <li><a (click)="scrollToSection('skills')">Skills</a></li>
+        <li><a (click)="scrollToSection('services')">Services</a></li>
+        <li><a (click)="scrollToSection('portfolio')">Portfolio</a></li>
+        <li><a (click)="scrollToSection('contact')">Contact</a></li>
+        
+        <!--DARKMODE BUTTON-->
+<div class="bx" [class.bx-moon]="!isDarkMode" [class.bx-sun]="isDarkMode" id="darkmode" (click)="toggleDarkMode()"></div>
+
+    </ul>
+</header>
